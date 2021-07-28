@@ -6,12 +6,19 @@ The code in this folder is based on the code released by the paper <a href="http
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple steps.
+To get a local copy up of the repository and run the model follow these steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+* pytorch >= 0.4.0
+
+* torchtext >= 0.4.0
+
+* nltk
+
+* fasttext == 0.8.3
+
+* kenlm
   ```sh
   npm install npm@latest -g
   ```
