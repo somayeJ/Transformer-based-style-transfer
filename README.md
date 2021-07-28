@@ -18,7 +18,7 @@ To get a local copy up of the repository and run the model follow these steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/somayeJ/Transformer-based-style-transfer.git
    ```
 2. Install the requirements
 <!--*************************1. the type of the discriminator, if we want to keep or remove the multi_discriminator -->
