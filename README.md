@@ -7,8 +7,8 @@ The code in this folder is based on the code released by the paper <a href="http
 ## Getting Started
 
 To get a local copy up of the repository and run the model follow these steps.
-
-#### Requirements
+<!--*****************************1. I shoukd check the fasttext version, 2.I need to remove the perplexity requirements (kenlm) and files about pplx and add my files -->
+#### Requirements 
 
 * pytorch >= 0.4.0
 
@@ -16,7 +16,7 @@ To get a local copy up of the repository and run the model follow these steps.
 
 * nltk
 
-* fasttext == 0.8.3
+* fasttext == 0.9.3
 
 * kenlm
 
@@ -27,13 +27,14 @@ To get a local copy up of the repository and run the model follow these steps.
    git clone https://github.com/github_username/repo_name.git
    ```
 2. Install the requirements
-
+<!--1. the type of the discriminator -->
 #### Running the model
-* To train the model
-   ```sh
-   python main.py
-   ```
-* To test the model
+* To run the model, first determine the following parameters in the file main.py:
+   * To train model: train = True,  dev = True
+   * To test the model: test = True
+   * save_path = the directory where the models and outputs are to be saved
+
+* The run the following command:
    ```sh
    python main.py
    ```
