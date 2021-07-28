@@ -8,7 +8,7 @@ The code in this folder is based on the code released by the paper <a href="http
 
 To get a local copy up of the repository and run the model follow these steps.
 
-### Prerequisites
+### Requirements
 
 * pytorch >= 0.4.0
 
@@ -19,9 +19,6 @@ To get a local copy up of the repository and run the model follow these steps.
 * fasttext == 0.8.3
 
 * kenlm
-  ```sh
-  npm install npm@latest -g
-  ```
 
 ### Installation
 
@@ -29,8 +26,11 @@ To get a local copy up of the repository and run the model follow these steps.
    ```sh
    git clone https://github.com/github_username/repo_name.git
    ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
+2. Install the requirements
 
+### Running the model
+* Clone the repo
+   ```sh
+   git clone https://github.com/github_username/repo_name.git
+   ```
+* Install the requirements
