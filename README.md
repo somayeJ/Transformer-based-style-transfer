@@ -9,15 +9,9 @@ The code in this folder is based on the code released by the paper <a href="http
 To get a local copy up of the repository and run the model follow these steps.
 <!--*****************************1. I shoukd check the fasttext version, 2.I need to remove the perplexity requirements (kenlm) and files about pplx and add my files -->
 #### Requirements 
-
-* pytorch >= 0.4.0
-
 * torchtext >= 0.4.0
-
 * nltk
-
 * fasttext == 0.9.3
-
 * kenlm
 
 #### Installation
@@ -27,14 +21,21 @@ To get a local copy up of the repository and run the model follow these steps.
    git clone https://github.com/github_username/repo_name.git
    ```
 2. Install the requirements
-<!--1. the type of the discriminator -->
+<!--*************************1. the type of the discriminator, if we want to keep or remove the sata file -->
 #### Running the model
-* To run the model, first determine the following parameters in the file main.py:
+* To run the model, first adjust the following parameters in the Config class of the file  ''main.py'':
    * To train model: train = True,  dev = True
    * To test the model: test = True
    * save_path = the directory where the models and outputs are to be saved
 
-* The run the following command:
+* Then run the following command:
    ```sh
    python main.py
    ```
+## Data 
+*  The data/yelp/ directory is the dataset which is introduced by the paper It is composed of Yelp restaurant reviews.
+*  Each file should consist of one sentence per line with tokens separated by a space. The two styles are represented by 0 and 1
+
+## Dependencies
+* pytorch >= 0.4.0
+* Python = 3.x.x
