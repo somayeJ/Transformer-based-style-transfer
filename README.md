@@ -21,7 +21,7 @@ To get a local copy up of the repository and run the model follow these steps.
    git clone https://github.com/github_username/repo_name.git
    ```
 2. Install the requirements
-<!--*************************1. the type of the discriminator, if we want to keep or remove the sata file -->
+<!--*************************1. the type of the discriminator, if we want to keep or remove the multi_discriminator -->
 #### Running the model
 * To run the model, first adjust the following parameters in the Config class of the file  ''main.py'':
    * To train model: train = True,  dev = True
@@ -33,8 +33,9 @@ To get a local copy up of the repository and run the model follow these steps.
    python main.py
    ```
 ## Data 
-*  The data/yelp/ directory is the dataset which is introduced by the paper It is composed of Yelp restaurant reviews.
-*  Each file should consist of one sentence per line with tokens separated by a space. The two styles are represented by 0 and 1
+* The data/yelp/ directory is the dataset used in the paper <a href="https://arxiv.org/abs/1705.09655">《Style Transfer from Non-Parallel Text by Cross-Alignment". Tianxiao Shen, Tao Lei, Regina Barzilay, and Tommi Jaakkola. NIPS 2017》</a>. It is composed of the Yelp restaurant reviews.
+*  The data/GYAFC/ directory is the <a href="https://arxiv.org/abs/1803.06535"> GYAFC dataset</a>. This is the version used in the paper《Style as Sentiment versus Style as Formality:the same or different?". 
+*  Data format: Each file should consist of one sentence per line with tokens separated by a space. The two styles are represented by 0 and 1
 
 ## Dependencies
 * pytorch >= 0.4.0
