@@ -8,7 +8,7 @@ The code in this folder is based on the code released by the paper <a href="http
 
 To get a local copy up of the repository and run the model follow these steps.
 
-### Requirements
+#### Requirements
 
 * pytorch >= 0.4.0
 
@@ -20,7 +20,7 @@ To get a local copy up of the repository and run the model follow these steps.
 
 * kenlm
 
-### Installation
+#### Installation
 
 1. Clone the repo
    ```sh
@@ -28,9 +28,12 @@ To get a local copy up of the repository and run the model follow these steps.
    ```
 2. Install the requirements
 
-### Running the model
-* Clone the repo
+#### Running the model
+* To train the model
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   python main.py
    ```
-* Install the requirements
+* To test the model
+   ```sh
+   python main.py
+   ```
