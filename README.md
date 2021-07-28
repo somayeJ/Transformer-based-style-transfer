@@ -33,8 +33,8 @@ To get a local copy up of the repository and run the model follow these steps.
    python main.py
    ```
 ## Data 
-* The data/yelp/ directory is the dataset used in the paper <a href="https://arxiv.org/abs/1705.09655">《Style Transfer from Non-Parallel Text by Cross-Alignment". Tianxiao Shen, Tao Lei, Regina Barzilay, and Tommi Jaakkola. NIPS 2017》</a>. It is composed of the Yelp restaurant reviews.
-*  The data/GYAFC/ directory is the <a href="https://arxiv.org/abs/1803.06535"> GYAFC dataset</a>. This is the version used in the paper《Style as Sentiment versus Style as Formality:the same or different?". 
+* The data/yelp/ directory is the dataset used in the paper <a href="https://arxiv.org/abs/1705.09655">《Style Transfer from Non-Parallel Text by Cross-Alignmen》</a>. It is composed of the Yelp restaurant reviews.
+*  The data/GYAFC/ directory is the versiion of the <a href="https://arxiv.org/abs/1803.06535"> GYAFC dataset</a> which is used in the paper《Style as Sentiment versus Style as Formality:the same or different?". 
 *  Data format: Each file should consist of one sentence per line with tokens separated by a space. The two styles are represented by 0 and 1
 
 ## Dependencies
