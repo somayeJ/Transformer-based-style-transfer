@@ -10,9 +10,6 @@ To get a local copy up of the repository and run the model follow these steps.
 <!--*****************************1. I shoukd check the fasttext version, 2.I need to remove the perplexity requirements (kenlm) and files about pplx and add my files -->
 #### Requirements 
 * torchtext >= 0.4.0
-* nltk
-* fasttext == 0.9.3
-* kenlm
 
 #### Installation
 
@@ -23,10 +20,19 @@ To get a local copy up of the repository and run the model follow these steps.
 2. Install the requirements
 <!--*************************1. the type of the discriminator, if we want to keep or remove the multi_discriminator -->
 #### Running the model
-* To run the model, first adjust the following parameters in the Config class of the file  ''main.py'':
-   * To train model: train = True,  dev = True
-   * To test the model: test = True
-   * save_path = the directory where the models and outputs are to be saved
+* To train the model, first adjust the following parameters in the Config class of the file  ''main.py'':
+	* self.train = True
+   * self.dev = True
+   * self.test = False
+	* self.best_model_path = ''
+   * self.save_path = the directory to save the outputs
+   
+* To test the model, first adjust the following parameters in the Config class of the file  ''main.py'':
+	* self.train = False
+   * self.dev = False
+   * self.test = True
+	* self.best_model_path = self.save_path + '_num_dev_best_model'  (where _num_ should be replaced with the biggest no of the saved models)
+   * self.save_path = the directory to save the outputs 
 
 * Then run the following command:
    ```sh
