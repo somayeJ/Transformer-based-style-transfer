@@ -1,6 +1,6 @@
 ## About The Repository:
 This repository contains the code and data for the following paper:\
-《***Name of our paper》\
+《Local or Global:The Variation in the Encoding of Style Across Sentiment and Formality》\
 The code in this folder is based on the code released by the paper <a href="https://arxiv.org/abs/1905.05621">《Style Transformer: Unpaired Text Style Transfer without Disentangled Latent Representation》</a>
 
 <!-- GETTING STARTED -->
