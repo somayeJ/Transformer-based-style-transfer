@@ -34,7 +34,7 @@ To get a local copy up of the repository and run the model follow these steps.
    ```
 ## Data 
 * The data/yelp_large/ directory contains the  Yelp restaurant reviews dataset used in the paper <a href="https://arxiv.org/abs/1705.09655">《Style Transfer from Non-Parallel Text by Cross-Alignmen》</a>. 
-*  The data/yelp_small/ directory contains the  Yelp restaurant reviews dataset used in the paper <a href="https://arxiv.org/abs/1705.09655">《Style Transfer from Non-Parallel Text by Cross-Alignmen》</a>.
+*  The data/yelp_small/ directory contains the  Yelp restaurant reviews dataset used in the paper <a href="https://arxiv.org/abs/1905.05621">《Style Transformer: Unpaired Text Style Transfer without Disentangled Latent Representation》</a>
 *  Data format: Each file should consist of one sentence per line with tokens separated by a space. The two styles are represented by 0 and 1
 
 ## Dependencies
