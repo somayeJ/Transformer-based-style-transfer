@@ -1,5 +1,5 @@
 #### About this code:
-This code computes style_shift_power (SSP) and  is adapted from the code released by the paper <a href="https://arxiv.org/abs/1705.09655">《Style Transfer from Non-Parallel Text by Cross-Alignmen》</a>. 
+This code computes fluency of the text and  is adapted from the code released  <a href="https://github.com/shentianxiao/language-style-transfer/blob/master/code/language_model.py"> here </a> for computing fluency. 
 
 <!-- GETTING STARTED ## Getting Started-->
 
