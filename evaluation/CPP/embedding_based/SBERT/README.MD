@@ -5,7 +5,7 @@ This code computes Content Preservation Power (CPP) using pre-trained BERT model
 
 <!--*****************************1. -->
 
-#### Running the model
+#### Running the code
 * To compute CPP between a source file and a generated file, first adjust the following parameters in the function load_arguments() of the file  ''BERT_based_cpp.py'':
    * --file_1 = ../tmp/test
    * --file_2 = ../data/Yelp/test
